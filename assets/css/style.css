@@ -1,0 +1,77 @@
+.bar-top,
+.bar-middle,
+.bar-bottom {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.transparent {
+    background-color: transparent !important
+}
+
+.transparent.inverse {
+    border-color: transparent;
+}
+
+.change {
+    background-color: #000
+}
+
+.change .bar-top {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+    /* background-color: #000*/
+}
+
+.change .bar-middle {
+    opacity: 0;
+}
+
+.change .bar-bottom {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-2px, -2px);
+    /*background-color: #000*/
+}
+
+.indexcity {
+    z-index: 9999;
+}
+
+.right {
+    right: 0 !important;
+}
+
+.left {
+    left: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-collapse.rl {
+        background-color: #ffc107;
+        position: fixed;
+        top: 0;
+        transition: all 0.8s ease-out;
+        height: 100%;
+        width: 50%;
+        right: -700px;
+    }
+    .navbar-collapse.lr {
+        background-color: #ffc107;
+        position: fixed;
+        top: 0;
+        transition: all 0.8s ease-out;
+        height: 100%;
+        width: 50%;
+        left: -700px
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        color: #000;
+    }
+    .navbar-collapse {
+        padding-right: 0px;
+    }
+}
