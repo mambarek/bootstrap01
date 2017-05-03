@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse">
         <div class="navbar-header">
@@ -26,7 +27,7 @@
         <div class="overlay hidden-md-up"></div>
         <div class="navbar-collapse left-align">
             <ul class="nav navbar-nav ">
-                <li><a href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&#xa0;Home</a></li>
+                <li><a href="left-slide.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&#xa0;Home</a></li>
                 <li><a href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&#xa0;Work</a></li>
                 <li><a href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&#xa0;Course</a></li>
                 <li><a href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&#xa0;Contact</a></li>
@@ -39,9 +40,19 @@
         </div>
     </nav>
     <!-- End Navigation-->
-    <div class="container" id="main-content">
-        <h3>Right Aligned Navbar</h3>
-        <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+
+    <div class="container" id="login-widget">
+        <div class="wrapper">
+            <form class="form-signin">
+                <h2 class="form-signin-heading">Please login</h2>
+                <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+                <input type="password" class="form-control" name="password" placeholder="Password" required="" />
+                <label class="checkbox">
+                    <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+                </label>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+            </form>
+        </div>
     </div>
 
     <!-- footer js loader -->
