@@ -12,38 +12,104 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">PROJEKT</a>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">PROJEKT</a>
 
-            <button type="button" class="navbar-toggle">
+                <button type="button" class="navbar-toggle">
                 <span class="sr-only">Toggle Navigation</span>
                 <span class="bar-top"></span>
                 <span class="bar-middle"></span>
                 <span class="bar-bottom"></span>
             </button>
-        </div>
-        <div class="overlay hidden-md-up"></div>
-        <div class="navbar-collapse left-align">
-            <ul class="nav navbar-nav ">
-                <li><a href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&#xa0;Home</a></li>
-                <li><a href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&#xa0;Work</a></li>
-                <li><a href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&#xa0;Course</a></li>
-                <li><a href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&#xa0;Contact</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="divider"></li>
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
-                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>
+            </div>
+            <div class="overlay hidden-md-up"></div>
+            <div class="navbar-collapse left-align">
+                <ul class="nav navbar-nav ">
+                    <li><a href="left-slide.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&#xa0;Home</a></li>
+                    <li><a href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&#xa0;Work</a></li>
+                    <li><a href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&#xa0;Course</a></li>
+                    <li><a href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&#xa0;Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="divider"></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!-- End Navigation-->
     <div class="container" id="main-content">
-        <h3>Right Aligned Navbar</h3>
-        <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
-    </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    User Registery
+                    <small>Test text</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <a href="left-slide.html">Home</a>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="well col-md-2">
+                Test Well
+            </div>
+            <div class="well col-md-10">
+                Test Well 10
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="panel panel-primary">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Menu</div>
+                </div>
 
+            </div>
+            <div class="col-md-10">
+
+                <div class="panel panel-primary">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Panel heading</div>
+                </div>
+
+                <h3>Right Aligned Navbar</h3>
+                <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+
+                <h2>Hover Rows</h2>
+                <p>The .table-hover class enables a hover state on table rows:</p>
+                <table class="table table-hover table-responsive">
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     <!-- footer js loader -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
